@@ -11,6 +11,7 @@ class BarcodePlugin {
           'scanner_selection': 'auto',
           'scanner_input_enabled': 'true',
           'decoder_i2of5': 'true',
+          'code_id_type' : '1',
           'aim_type': AimType.values.indexOf(aimType).toString(),
           if (timeoutBetweenScans > 0)
             'same_barcode_timeout': timeoutBetweenScans.toString(),
